@@ -91,6 +91,8 @@ h2 {
 }
 .get-desc{
   font-weight: 600;
+  max-width: 460px;
+  margin: auto;
 }
 h3 {
   color: #1e836c;
@@ -105,7 +107,7 @@ h3 {
 }
 .coding{
   border-radius: 25%;
-  width: 40%;
+  width: 19rem;
   float: left;
   margin-right: 35px;
   padding-bottom: 1rem;
@@ -113,7 +115,7 @@ h3 {
 }
 .eth{
   border-radius: 25%;
-  width: 35%;
+  width: 15rem;
   float: right;
   margin-left: 10px;
   padding-right:  1rem;
