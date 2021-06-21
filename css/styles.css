@@ -51,7 +51,12 @@ body {
   font-family: 'Merriweather', serif;
 }
 .skills{
-  width: 55%;
+  width: 55rem;;
+  margin: auto;
+  max-width: 1000px
+}
+.contact-me{
+  width: 55rem;;
   margin: auto;
   max-width: 1000px
 }
@@ -93,6 +98,9 @@ h2 {
   font-weight: 600;
   max-width: 460px;
   margin: auto;
+}
+.design{
+      font-size: 1.4em;
 }
 h3 {
   color: #1e836c;
