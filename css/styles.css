@@ -39,7 +39,12 @@ hr{
 .profile{
   padding-bottom: 3rem;
 }
+.get-desc{
+  margin: auto;
+  width: 50%;
 
+
+}
 body {
   margin: 0;
   text-align: center;
