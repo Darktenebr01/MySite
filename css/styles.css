@@ -1,8 +1,10 @@
+
 .top-container {
   text-align: center;
   background-color: #E4F9F5;
   position: relative;
-  padding-top: 100px;
+  padding-top: 3rem;
+
 }
 .Intro{
   font-size: 2.5rem;
@@ -12,6 +14,7 @@
     font-weight: normal;
     line-height: 1;
 }
+
 
 hr{
 
@@ -24,7 +27,10 @@ hr{
 }
 .middle-container{
   position: relative;
-  padding: 100px;
+  padding: 3rem;
+}
+.profile{
+  padding-bottom: 3rem;
 }
 
 body {
@@ -57,6 +63,24 @@ h2 {
   font-family: 'Montserrat', sans-serif;
 }
 
+.profile{
+  margin: 0 auto;
+    max-width: 460px;
+}
+.chibi{
+  border-radius: 50%;
+}
+.hello-desc{
+  margin: 0 0 10px;
+    font-family: adobe-garamond-pro,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    font-weight: 600;
+}
+.code-desc{
+  font-weight: 600;
+}
+.get-desc{
+  font-weight: 600;
+}
 h3 {
   color: #1e836c;
   font-family: 'Montserrat', sans-serif;
@@ -70,17 +94,18 @@ h3 {
 }
 .coding{
   border-radius: 25%;
-  width: 25%;
+  width: 40%;
   float: left;
-  margin-right: 30px;
+  margin-right: 35px;
+  padding-bottom: 1rem;
 
 }
 .eth{
   border-radius: 25%;
-  width: 25%;
+  width: 35%;
   float: right;
   margin-left: 10px;
-
+  padding-right:  1rem;
 }
 .web {
   text-decoration: underline;
@@ -100,7 +125,7 @@ h3 {
 
 .bottom-container{
   text-align: center;
-  background-color: #E4F9F5;
+  background-color: #66bfbf;
   position: relative;
   padding: 100px;
   color: #11999e;
@@ -110,5 +135,25 @@ h3 {
 
 }
 .copyright{
-  color: white;
+  color: #eaf6f6;
+}
+
+.button {
+  width: 15.0rem;
+  margin: 0 auto;
+  font-size: 2.0rem;
+  padding: 1.25rem 2.5rem;
+  display: block;
+  background-color: #11999e;
+  color: #ffffff;
+  font-weight: 100;
+  -webkit-border-radius: 3px;
+  border-radius: 8%;
+
+}
+
+.button:hover {
+  background-color: #ffffff;
+  color: #11999e;
+  border-color: #11999e;
 }
