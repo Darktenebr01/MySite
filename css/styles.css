@@ -51,7 +51,7 @@ body {
   font-family: 'Merriweather', serif;
 }
 .skills{
-  width: 50%;
+  width: 55%;
   margin: auto;
   max-width: 1000px
 }
@@ -110,7 +110,7 @@ h3 {
   width: 19rem;
   float: left;
   margin-right: 35px;
-  padding-bottom: 1rem;
+  padding-right: 1rem
 
 }
 .eth{
